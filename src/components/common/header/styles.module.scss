@@ -1,0 +1,34 @@
+@import '@/styles/variables.module.scss';
+.conteiner {
+    background-color: $primaryBlue;
+}
+.content {
+    padding: 10px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    max-width: 1300px;
+}
+.navigation {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+
+}
+.link {
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    &:hover {
+        text-decoration: underline;
+    }
+}
+.img {
+    cursor: pointer;
+}
+.userHacks {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}

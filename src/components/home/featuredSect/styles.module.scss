@@ -1,0 +1,40 @@
+@import '@/styles/variables.module.scss';
+
+.conteiner {
+    padding: 100px;
+}
+.infosContent {
+    display: flex;
+    flex-flow: column;
+    gap: 20px;
+}
+.info {
+    color: #fff;
+    font-size: 25px;
+}
+.title {
+    font-size: 40px;
+    color: #fff;
+}
+.synopsis {
+    max-width: 500px;
+    color: #fff;
+    font-size: 15px;
+    height: 100px;
+    overflow: hidden;
+}
+.infoBtn {
+    width: 180px;
+    padding: 5px;
+    background: linear-gradient(45deg,#dbdbdb 1%, #01c6ac);
+    color: $primaryBlue;
+    font-size: 18px;
+    font-weight: 600;
+    border: 1px solid #838383;
+    border-radius: 50px;
+    cursor: pointer;
+    &:hover {
+        text-decoration: underline;
+    }
+
+}
