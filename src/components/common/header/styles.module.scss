@@ -1,14 +1,15 @@
 @import '@/styles/variables.module.scss';
 .conteiner {
     background-color: $primaryBlue;
+    padding: 10px 40px;
 }
 .content {
-    padding: 10px 40px;
+    
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin: auto;
-    max-width: 1300px;
+    max-width: 1200px;
 }
 .navigation {
     display: flex;
