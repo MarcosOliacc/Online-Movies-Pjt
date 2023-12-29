@@ -29,5 +29,39 @@
     cursor: pointer;
     padding: 10px 20px;
 }
+.btnAct {
+    font-size: 13px;
+  background: linear-gradient(to right,#99b5f1 20%, #01c6ac);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.slideTrend {
+    position: absolute;
+    height: 100%;
+    border-radius: 15px;
+    width: 74px;
+    background-color: $primaryBlue;
+    transition: 300ms;
+}
+.goRight {
+    width: 130px;
+    transform: translateX(53.8%);
+}
+.swiperConteiner {
+    margin-top: 20px;
+}
+.posterImg{
+    border-radius: 10px;
+}
+.posterTitle {
+    font-size: 15px;
+    width: 150px;
+    font-weight: 600;
+}
+.posterDate {
+    font-size: 14px;
+    color: darkgray;
+}
+
 
 
